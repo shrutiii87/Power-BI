@@ -3,13 +3,6 @@
 An end-to-end **ETL simulation project** built using Power BI's Power Query Editor to extract, clean, reshape, and combine data from multiple sources using essential data engineering techniques.
 
 ---
-
-## 🎬 Project Demo Video
-
-> ▶️ **[Click here to watch the project walkthrough video](https://drive.google.com/file/d/1mmttqSvp1TvZw6htoes8afExkHGAepTX/view?usp=sharing)**
-
----
-
 ## 🚀 Project Overview
 
 This project presents a complete **Power Query ETL Pipeline** built inside Microsoft Power BI Desktop. It demonstrates real-world data engineering skills including:
@@ -130,6 +123,12 @@ Grouped by `Source.Name` (month/file):
 - Copied an existing file → renamed `Sales_Apr.xlsx` → placed in same folder
 - Clicked **Refresh** in Power BI → April data loaded automatically ✅
 - All previous transformations carried over successfully ✅
+
+---
+
+## 🎬 Project Demo Video
+
+> ▶️ **[Click here to watch the project walkthrough video](https://drive.google.com/file/d/1mmttqSvp1TvZw6htoes8afExkHGAepTX/view?usp=sharing)**
 
 ---
 
