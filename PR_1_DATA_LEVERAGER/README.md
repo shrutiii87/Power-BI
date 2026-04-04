@@ -28,7 +28,7 @@ This project presents a complete **Power Query ETL Pipeline** built inside Micro
 |-----------|-------------|
 | 📄 `PR_1_DATA_LEVERAGER.pbix` | Main Power BI file with all 13 Power Query transformations |
 | 📘 `README.md` | Project documentation (this file) |
-| 🔗| explanation of project in video ( link is below) |
+| 🔗 `Video` | explanation of project in video ( link is below) |
 
 ---
 
