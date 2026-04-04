@@ -160,7 +160,6 @@ Grouped by `Source.Name` (month/file):
 | Challenge | How It Was Solved |
 |-----------|-------------------|
 | Web connector not loading table | Used a stable Wikipedia URL and selected the correct table from Navigator |
-| Split Column affected name-based joins |
 | Change Type with Locale errors | Selected **English (India)** as locale for Revenue and Cost columns |
 | Data Source Settings path error after moving files | Re-entered correct path in Data Source Settings and refreshed |
 
