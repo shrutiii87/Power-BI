@@ -115,8 +115,6 @@ Grouped by `Source.Name` (month/file):
 | Region | 4 | 100% | 0% | 0% |
 | Product | 5 | 100% | 0% | 0% |
 
-## 📷 Data profiling and quality![PR_1_DATA_LEVERAGER](""C:\Users\admin\Pictures\Screenshots\data profiling.png"")
-
 ### 🔹 1️⃣1️⃣ Source Settings & Parameters (Task 11)
 - Created Parameter `FolderPath` (Type: Text) with current folder path as default
 - Used parameter to make folder source **dynamic**
