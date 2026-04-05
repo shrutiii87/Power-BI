@@ -133,7 +133,7 @@ Grouped by `Source.Name` (month/file):
 
 ## 🎬 Project Demo Video
 
-▶️ [Click here to watch the project walkthrough video](#)
+▶️ [Click here to watch the project walkthrough video](https://drive.google.com/file/d/1mmttqSvp1TvZw6htoes8afExkHGAepTX/view?usp=sharing)
 
 ---
 
