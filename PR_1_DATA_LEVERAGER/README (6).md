@@ -135,6 +135,16 @@ Grouped by `Source.Name` (month/file):
 
 ---
 
+## 🖼️ Project Preview
+
+![Data Leverager Preview 1](preview(1).png)
+
+![Data Leverager Preview 2](preview(2).png)
+
+![Data Leverager Preview 3](preview(3).png)
+
+---
+
 ## 🗃️ Query Summary
 
 **Total Queries: 13**
@@ -191,16 +201,6 @@ Grouped by `Source.Name` (month/file):
 ✔️ Dynamic parameter setup makes the pipeline reusable across any folder path
 
 ✔️ Refresh simulation proved the ETL pipeline is fully automated for new monthly data
-
----
-
-## 🖼️ Project Preview
-
-![Data Leverager Preview 1](preview_1.png)
-
-![Data Leverager Preview 2](preview_2.png)
-
-![Data Leverager Preview 3](preview_3.png)
 
 ---
 
