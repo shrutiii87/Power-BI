@@ -46,6 +46,8 @@ This project presents a complete Power Query ETL Pipeline built inside Microsoft
 
 ## 🧩 Transformation Tasks Breakdown
 
+NOTE:- after openeing the file . refersh the sales data then it will work . 
+
 ### 🔹 1️⃣ Data Extraction (Task 1)
 - Loaded 3 monthly sales files using Folder Source → Append Queries from Folder
 - Loaded Employees.xlsx as a separate Excel connection
