@@ -28,7 +28,7 @@ This project presents a complete Power Query ETL Pipeline built inside Microsoft
 |-----------|-------------|
 | 📄 PR_1_DATA_LEVERAGER.pbix | Main Power BI file with all 13 Power Query transformations |
 | 📘 README.md | Project documentation (this file) |
-| 🔗 Video | Explanation of project in video (lINK IS BELOW) |
+| 🎬 Video | Explanation of project in video (lINK IS BELOW) |
 | 📷 Project Preview | Explanation of project in images |
 | 📁 Files Used | Files used in project |
 
@@ -135,7 +135,7 @@ Grouped by `Source.Name` (month/file):
 
 ---
 
-## 🖼️ Project Preview
+## 🖼️ Project explanation
 
 ![Data Leverager Preview 1](project%20preview/preview%20(1).png)
 
