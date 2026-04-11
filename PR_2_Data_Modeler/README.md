@@ -163,6 +163,22 @@ Used Matrix visuals to verify all relationship flows:
 
 ---
 
+## 📌 Key Insights from the Model
+
+✔️ Electronics was the highest revenue category at ₹1,02,893 across all regions
+
+✔️ USA contributed the most revenue (₹1,24,162) among all regions
+
+✔️ Return volume increased from FY2022 (47) to FY2023 (53), with "Not Needed" being the top reason
+
+✔️ All 3 customer segments (Gold, Platinum, Silver) had nearly equal revenue distribution
+
+✔️ The inactive relationship on `ReturnDateKey` successfully resolved filter ambiguity
+
+✔️ Hierarchies enabled drill-down from Country → State → City and Year → Quarter → Month → Date
+
+---
+
 ## ⚠️ Challenges Faced & How I Solved Them
 
 | Challenge | How It Was Solved |
@@ -184,22 +200,6 @@ Used Matrix visuals to verify all relationship flows:
 | Power BI Model View | Relationships, cardinality settings, inactive relationships |
 | Column Tools | Data categories, data formats, summarization settings |
 | Data Pane (Fields) | Hierarchies, column renaming, sort by column |
-
----
-
-## 📌 Key Insights from the Model
-
-✔️ Electronics was the highest revenue category at ₹1,02,893 across all regions
-
-✔️ USA contributed the most revenue (₹1,24,162) among all regions
-
-✔️ Return volume increased from FY2022 (47) to FY2023 (53), with "Not Needed" being the top reason
-
-✔️ All 3 customer segments (Gold, Platinum, Silver) had nearly equal revenue distribution
-
-✔️ The inactive relationship on `ReturnDateKey` successfully resolved filter ambiguity
-
-✔️ Hierarchies enabled drill-down from Country → State → City and Year → Quarter → Month → Date
 
 ---
 
