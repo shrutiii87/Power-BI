@@ -135,6 +135,8 @@ Used Matrix visuals to verify all relationship flows:
 
 **Matrix Results:**
 
+### 🔹 1️⃣ Sales Group by Product Category and Region
+
 | Category | Germany | India | USA | Total |
 |----------|---------|-------|-----|-------|
 | Clothing | ₹26,521 | ₹27,725 | ₹38,015 | ₹92,261 |
@@ -142,11 +144,15 @@ Used Matrix visuals to verify all relationship flows:
 | Furniture | ₹23,990 | ₹26,347 | ₹41,435 | ₹91,772 |
 | **Total** | **₹77,000** | **₹85,764** | **₹1,24,162** | **₹2,86,926** |
 
+### 🔹 2️⃣ Return Reason by Fiscal Year
+
 | Fiscal Year | Damaged | Not Needed | Wrong Item | Total |
 |-------------|---------|------------|------------|-------|
 | FY2022 | 15 | 17 | 15 | 47 |
 | FY2023 | 19 | 18 | 16 | 53 |
 | **Total** | **34** | **35** | **31** | **100** |
+
+### 🔹3️⃣ Revenue By Customer Segment 
 
 | Segment | Sum of Revenue |
 |---------|---------------|
