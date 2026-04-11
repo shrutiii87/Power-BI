@@ -5,6 +5,14 @@ An advanced Power BI data modeling project focused on building a structured, nor
 
 ---
 
+## 🎬 Project Demo Video
+
+[![▶ WATCH DEMO – GOOGLE DRIVE](https://img.shields.io/badge/▶%20WATCH%20DEMO-GOOGLE%20DRIVE-4285F4?style=for-the-badge&logo=googledrive&logoColor=white)](https://drive.google.com/file/d/1Ax2q81JJfqHjOYBV_VfqNsYL90CqvuoO/view?usp=sharing)
+
+> 🖥️ Click the badge above to watch the full project walkthrough video on Google Drive.
+
+---
+
 ## 🚀 Project Overview
 
 This project demonstrates end-to-end **Data Modeling** inside Microsoft Power BI Desktop. No calculated columns, DAX measures, or visual charts are used — the focus is purely on:
