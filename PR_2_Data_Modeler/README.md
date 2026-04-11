@@ -51,6 +51,12 @@ This project demonstrates end-to-end **Data Modeling** inside Microsoft Power BI
 
 ---
 
+## 🖼️ Project Preview 
+
+![Project Preview](project_preview.png)
+
+---
+
 ## 🧩 Project Tasks Breakdown
 
 ### 🔹 1️⃣ Data Extraction & Cleaning (Power Query)
@@ -168,12 +174,6 @@ Used Matrix visuals to verify all relationship flows:
 | Platinum | ₹93,893 |
 | Silver | ₹97,436 |
 | **Total** | **₹2,86,926** |
-
----
-
-## 🖼️ Project Preview 
-
-![Project Preview](project_preview.png)
 
 ---
 
