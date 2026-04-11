@@ -26,6 +26,7 @@ This project demonstrates end-to-end **Data Modeling** inside Microsoft Power BI
 | 📄 PR_2_DATA_MODELER.pbix | Main Power BI file with all tables, relationships, hierarchies |
 | 📘 README.md | Project documentation (this file) |
 | 📁 Files Used | Source Excel files used in the project |
+| 🖼️ project_preview.png | explanation of project through image |
 
 ---
 
@@ -153,6 +154,12 @@ Used Matrix visuals to verify all relationship flows:
 | Platinum | ₹93,893 |
 | Silver | ₹97,436 |
 | **Total** | **₹2,86,926** |
+
+---
+
+## 🖼️ Project Preview 
+
+![Project Preview](project_preview.png)
 
 ---
 
