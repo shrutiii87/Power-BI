@@ -119,6 +119,8 @@ Total Sales All Regions = CALCULATE( [Total Sales], ALL(Region_Dim) )
 
 ### 🔹 6️⃣ DAX Operators and Functions
 
+![DAX Operators and Functions](https://github.com/shrutiii87/Power-BI/blob/main/PR_3_DAX_DEPO/Project%20images/DAX%20Operators%20and%20Functions%20(6).png)
+
 **Measures:**
 ```dax
 Total Quantity Sold = SUM(Sales_Fact[Quantity])
@@ -156,9 +158,6 @@ Sale Year = YEAR(Date_Dim[Date])
 Sale Month = MONTH(Date_Dim[Date])
 End of Month = EOMONTH(Date_Dim[Date], 0)
 ```
-
-![DAX Operators and Functions](https://github.com/shrutiii87/Power-BI/blob/main/PR_3_DAX_DEPO/Project%20images/DAX%20Operators%20and%20Functions%20(6).png)
-
 ---
 
 ### 🔹 7️⃣ Joining and Relationships
@@ -200,8 +199,6 @@ AvgOrderValue = AVERAGEX( Sales_Fact, Sales_Fact[Quantity] * Sales_Fact[Cost] )
 ```
 
 ![SWITCH](https://github.com/shrutiii87/Power-BI/blob/main/PR_3_DAX_DEPO/Project%20images/Additional%20Scenarios%20(9).png)
-
-☝️ i have not done sales ranges because i have taken out margin category using SWITCH. In task DAX operators & functions, there was already SWITCH so i did the sales range one there.
 
 ![SUMX() , AVERAGEX()](https://github.com/shrutiii87/Power-BI/blob/main/PR_3_DAX_DEPO/Project%20images/Add%20Scenarios(9).png)
 
