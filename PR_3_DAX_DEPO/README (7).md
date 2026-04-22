@@ -14,10 +14,10 @@ This project demonstrates end-to-end **DAX (Data Analysis Expressions)** inside 
 
 | File | Description |
 |------|-------------|
-| 📄 `Sales_Fact` | Main Power BI file  |
+| 📄 `PR3_DAX_Depo.pbix` | Main Power BI file  |
 | 📁 `files used` | Files used in project |
 | 📷 `Project images` | task screenshots |
-| 📘 `README>md` | Readme of the project |
+| 📘 `README.md` | Readme of the project |
 
 ---
 
@@ -40,7 +40,6 @@ This project demonstrates end-to-end **DAX (Data Analysis Expressions)** inside 
 
 ### 🔹 1️⃣ Calculated Columns
 
-> Calculated columns are added directly to a table and computed row-by-row during data refresh. Used here to derive profit, flag returned items, and build full customer names.
 
 - **Profit** 
 - **ReturnFlag**
@@ -86,8 +85,8 @@ Customer Full Name = Customer_Dim[FirstName] & " " & Customer_Dim[LastName]
 
 ### 🔹 4️⃣ Measures Management
 
--** in these we have made an table name Measures Table**
--** in these we have transfer all measures into an seperate table**
+- **in these we have made an table name Measures Table**
+- **we have transfer all measures into an seperate table**
 
 ![Measures Table](https://github.com/shrutiii87/Power-BI/blob/main/PR_3_DAX_DEPO/Project%20images/Measures%20Table%20(4).png)
 
