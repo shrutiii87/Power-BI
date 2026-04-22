@@ -40,11 +40,11 @@ This project demonstrates end-to-end **DAX (Data Analysis Expressions)** inside 
 
 ### 🔹 1️⃣ Calculated Columns
 
-![Output Requirement]([https://raw.githubusercontent.com/shrutiii87/Power-BI/main/PR_3_DAX_DEPO/project%20images/Output%20Requirement.png](https://github.com/shrutiii87/Power-BI/blob/main/PR_3_DAX_DEPO/Project%20images/Calculated%20Coloumnn%20(1).png?raw=true))
+![Calculated Column Output](./project%20images/Calculated%20Coloumnn%20(1).png))
 
 ### 🔹 9️⃣ Output Requirement
 
-![Output Requirement](https://raw.githubusercontent.com/shrutiii87/Power-BI/main/PR_3_DAX_DEPO/project%20images/Output%20Requirement.png)
+
 
 ---
 
