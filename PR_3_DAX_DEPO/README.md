@@ -54,7 +54,29 @@ This project demonstrates end-to-end **DAX (Data Analysis Expressions)** inside 
 
 ![Measures Table](https://github.com/shrutiii87/Power-BI/blob/main/PR_3_DAX_DEPO/Project%20images/Measures%20Table%20(4).png)
 
-### 🔹 4️⃣ Measures Table
+### 🔹 5️⃣ Filter Context & Behavior
+
+![Filter Context & Behavior](https://github.com/shrutiii87/Power-BI/blob/main/PR_3_DAX_DEPO/Project%20images/Filter%20Context%20%26%20Behavior%20(5).png)
+
+### 🔹 6️⃣  DAX Operators and Functions
+
+![DAX Operators and Functions](https://github.com/shrutiii87/Power-BI/blob/main/PR_3_DAX_DEPO/Project%20images/DAX%20Operators%20and%20Functions%20(6).png)
+
+### 🔹 7️⃣  Joining and Relationships
+
+![Joining and Relationships](https://github.com/shrutiii87/Power-BI/blob/main/PR_3_DAX_DEPO/Project%20images/Joining%20and%20Relationships%20(7).png)
+
+### 🔹 8️⃣  Time Intelligence (Matrix-based Analysis)
+
+![Time Intelligence (Matrix-based Analysis)](https://github.com/shrutiii87/Power-BI/blob/main/PR_3_DAX_DEPO/Project%20images/Time%20Intelligence%20(Matrix-based%20Analysis)%20(8).png)
+
+### 🔹 9️⃣  Additional Scenarios
+
+![SWITCH](https://github.com/shrutiii87/Power-BI/blob/main/PR_3_DAX_DEPO/Project%20images/Additional%20Scenarios%20(9).png)
+
+☝️ i have not done sales ranges beacuse i have taken out margin category using SWITCH .  in task DAX operators & functions . in that there was already switch so i did the sales range one there . 
+
+![SUMX() , AVERAGEX()](https://github.com/shrutiii87/Power-BI/blob/main/PR_3_DAX_DEPO/Project%20images/Add%20Scenarios(9).png)
 
 ---
 
