@@ -42,9 +42,19 @@ This project demonstrates end-to-end **DAX (Data Analysis Expressions)** inside 
 
 ![Calculated Column Output](https://github.com/shrutiii87/Power-BI/blob/main/PR_3_DAX_DEPO/Project%20images/Calculated%20Coloumnn%20(1).png)
 
-### 🔹 9️⃣ Output Requirement
+### 🔹 2️⃣ Measures 
 
+![Measures](https://github.com/shrutiii87/Power-BI/blob/main/PR_3_DAX_DEPO/Project%20images/Measures%20(2).png)
 
+### 🔹 3️⃣ Quick Measures 
+
+![Quick Measures](https://github.com/shrutiii87/Power-BI/blob/main/PR_3_DAX_DEPO/Project%20images/Quick%20Measures%20(3).png)
+
+### 🔹 4️⃣ Measures Managment
+
+![Measures Table](https://github.com/shrutiii87/Power-BI/blob/main/PR_3_DAX_DEPO/Project%20images/Measures%20Table%20(4).png)
+
+### 🔹 4️⃣ Measures Table
 
 ---
 
