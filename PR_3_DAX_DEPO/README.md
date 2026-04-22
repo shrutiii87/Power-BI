@@ -34,20 +34,13 @@ This project demonstrates end-to-end **DAX (Data Analysis Expressions)** inside 
 
 ---
 
-## 🔗 Relationships & Data Model
-
-![Relationships](https://raw.githubusercontent.com/shrutiii87/Power-BI/main/PR_3_DAX_DEPO/project%20images/Relationships.png)
-
-![Joining and Relationships](https://raw.githubusercontent.com/shrutiii87/Power-BI/main/PR_3_DAX_DEPO/project%20images/joining%20and%20relationships.png)
-
----
-
 ## 🧩 Project Tasks Breakdown
 
 ---
 
 ### 🔹 1️⃣ Calculated Columns
 
+![Output Requirement](https://raw.githubusercontent.com/shrutiii87/Power-BI/main/PR_3_DAX_DEPO/project%20images/Output%20Requirement.png)
 
 ### 🔹 9️⃣ Output Requirement
 
