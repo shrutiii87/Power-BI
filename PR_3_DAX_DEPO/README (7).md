@@ -86,6 +86,9 @@ Customer Full Name = Customer_Dim[FirstName] & " " & Customer_Dim[LastName]
 
 ### 🔹 4️⃣ Measures Management
 
+-** in these we have made an table name Measures Table**
+-** in these we have transfer all measures into an seperate table**
+
 ![Measures Table](https://github.com/shrutiii87/Power-BI/blob/main/PR_3_DAX_DEPO/Project%20images/Measures%20Table%20(4).png)
 
 ---
@@ -217,8 +220,20 @@ AvgOrderValue = AVERAGEX( Sales_Fact, Sales_Fact[Quantity] * Sales_Fact[Cost] )
 | Power BI Desktop | Report View, Table View, Model View |
 | DAX | Calculated Columns, Measures, Iterator Functions, Time Intelligence |
 | Power Query | Data import, type casting, blank row removal |
-| Quick Measures | YoY Growth %, MoM% auto-generation |
 | Fields Pane | Measure table organization |
+
+---
+
+## 📊 Report Tab Structure
+
+| Tab | Content |
+|-----|---------|
+| **Measure** | Total Sales, Return Rate %, Total Profit, Total Cost, Avg Sale per Transaction |
+| **Filter Context & Behaviour** | Sales by Region with ALL(), FILTER(), CALCULATE() |
+| **Dax Operators** | Total Quantity Sold, Transaction Count, Max Sale, Unique Customers, Avg Quantity |
+| **Quick Measure** | MoM%, YoY Growth %, Sales % of Total |
+| **Time Intelligence** | Sales YTD, Sales Last Year, Sales Last 3 Months, Running Total |
+| **Additional** | TotalRevenue (SUMX), AvgOrderValue (AVERAGEX) |
 
 ---
 
