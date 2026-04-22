@@ -163,8 +163,6 @@ End of Month = EOMONTH(Date_Dim[Date], 0)
 
 ### 🔹 7️⃣ Joining and Relationships
 
-> Uses `RELATED()` to pull data from a related dimension table into the fact table — works because of the active relationship defined in the model between `Sales_Fact` and `Product_Dim`.
-
 ```dax
 Product Name = RELATED(Product_Dim[ProductName])
 ```
@@ -174,8 +172,6 @@ Product Name = RELATED(Product_Dim[ProductName])
 ---
 
 ### 🔹 8️⃣ Time Intelligence (Matrix-based Analysis)
-
-> Time intelligence functions in DAX allow comparisons across time periods. These require a properly marked Date table. Results are displayed in a Matrix visual for easy period-over-period comparison.
 
 - **`TOTALYTD()`** – Cumulative total from the start of the year to the current date
 - **`SAMEPERIODLASTYEAR()`** – Returns the same time period from the previous year for YoY comparison
@@ -187,10 +183,6 @@ Product Name = RELATED(Product_Dim[ProductName])
 
 ### 🔹 9️⃣ Additional Scenarios
 
-> Covers advanced use of iterator functions (`SUMX`, `AVERAGEX`) and `SWITCH` for multi-tier categorization. Iterators loop row-by-row over a table and aggregate the result — powerful for custom per-row logic.
-
-☝️ i have not done sales ranges because i have taken out margin category using SWITCH. In task DAX operators & functions, there was already SWITCH so i did the sales range one there.
-
 ```dax
 Margin Category = SWITCH(
     TRUE(),
@@ -199,13 +191,17 @@ Margin Category = SWITCH(
     (Sales_Fact[SalesAmount] - Sales_Fact[Cost]) < 800, "High Margin",
     "Super Margin"
 )
-
+```
+```dax
 TotalRevenue = SUMX( Sales_Fact, Sales_Fact[Quantity] * Sales_Fact[Cost] )
-
+```
+```dax
 AvgOrderValue = AVERAGEX( Sales_Fact, Sales_Fact[Quantity] * Sales_Fact[Cost] )
 ```
 
 ![SWITCH](https://github.com/shrutiii87/Power-BI/blob/main/PR_3_DAX_DEPO/Project%20images/Additional%20Scenarios%20(9).png)
+
+☝️ i have not done sales ranges because i have taken out margin category using SWITCH. In task DAX operators & functions, there was already SWITCH so i did the sales range one there.
 
 ![SUMX() , AVERAGEX()](https://github.com/shrutiii87/Power-BI/blob/main/PR_3_DAX_DEPO/Project%20images/Add%20Scenarios(9).png)
 
