@@ -42,9 +42,9 @@ This project demonstrates end-to-end **DAX (Data Analysis Expressions)** inside 
 
 > Calculated columns are added directly to a table and computed row-by-row during data refresh. Used here to derive profit, flag returned items, and build full customer names.
 
-- **Profit** – Subtracts Cost from SalesAmount to get per-row profit
-- **ReturnFlag** – Checks the Returns_Fact table to label each sale as "Returned" or "Not Returned"
-- **Customer Full Name** – Combines First and Last name into one readable field
+- **Profit** 
+- **ReturnFlag**
+- **Customer Full Name** 
 
 ```dax
 Profit = Sales_Fact[SalesAmount] - Sales_Fact[Cost]
@@ -65,8 +65,6 @@ Customer Full Name = Customer_Dim[FirstName] & " " & Customer_Dim[LastName]
 
 ### 🔹 2️⃣ Measures
 
-> Measures are dynamic DAX calculations that evaluate based on the current filter context in visuals. Unlike calculated columns, they don't occupy a row — they respond to slicers, filters, and visual context in real time.
-
 - **Total Sales** – Sum of all sales amounts
 - **Return Rate** – Percentage of transactions that were returned
 - **Total Profit** – Sum of profit across all rows
@@ -79,8 +77,6 @@ Customer Full Name = Customer_Dim[FirstName] & " " & Customer_Dim[LastName]
 
 ### 🔹 3️⃣ Quick Measures
 
-> Quick Measures are Power BI's built-in DAX auto-generators. They handle common patterns like time comparisons without writing the full DAX manually — great for YoY and MoM analysis.
-
 - **Year-Over-Year Sales Growth**
 - **Difference between Current and Previous Month Sales**
 
@@ -90,32 +86,30 @@ Customer Full Name = Customer_Dim[FirstName] & " " & Customer_Dim[LastName]
 
 ### 🔹 4️⃣ Measures Management
 
-> All measures are organized into a dedicated `_Measures` table (a blank table used purely as a container). This keeps the Fields Pane clean, makes measures easy to find, and separates logic from raw data tables.
-
 ![Measures Table](https://github.com/shrutiii87/Power-BI/blob/main/PR_3_DAX_DEPO/Project%20images/Measures%20Table%20(4).png)
 
 ---
 
 ### 🔹 5️⃣ Filter Context & Behavior
 
-> This section explores how `CALCULATE()`, `FILTER()`, `ALL()`, and `DIVIDE()` manipulate filter context. These are the most powerful DAX concepts — they let you override, expand, or lock the current filter environment.
-
-- **North Region Sales** – Uses `CALCULATE` + `FILTER` to scope sales to a single region
-- **Sales % of Total** – Uses `ALL()` to remove region filter and compute share of total
-- **Total Sales All Regions** – Baseline unfiltered total using `ALL()`
+- **North Region Sales** – Uses `CALCULATE` + `FILTER` 
+- **Sales % of Total** – Uses `ALL()` 
+- **Total Sales All Regions** – Uses `ALL()`
 
 ```dax
 North Region Sales = CALCULATE(
     [Total Sales],
     FILTER(Region_Dim, Region_Dim[RegionName] = "North")
 )
-
+```
+```dax
 Sales % of Total = DIVIDE(
     [Total Sales],
     CALCULATE([Total Sales], ALL(Region_Dim)),
     0
 ) * 100
-
+```
+```dax
 Total Sales All Regions = CALCULATE( [Total Sales], ALL(Region_Dim) )
 ```
 
@@ -124,8 +118,6 @@ Total Sales All Regions = CALCULATE( [Total Sales], ALL(Region_Dim) )
 ---
 
 ### 🔹 6️⃣ DAX Operators and Functions
-
-> Covers a wide range of DAX functions — aggregation, logical operators (`IF`, `AND`, `OR`), text functions, date functions, and `SWITCH`. Both measures and calculated columns are used here.
 
 **Measures:**
 ```dax
@@ -139,11 +131,14 @@ Transaction Count = COUNTROWS(Sales_Fact)
 **Calculated Columns:**
 ```dax
 Profit Tier = IF( Sales_Fact[SalesAmount] - Sales_Fact[Cost] > 300, "High Profit", "Low Profit" )
-
+```
+```dax
 Premium Sale = IF( AND(Sales_Fact[SalesAmount] > 2000, Sales_Fact[Quantity] > 4), "Premium", "Standard" )
-
+```
+```dax
 Big or Bulk = IF( OR(Sales_Fact[SalesAmount] > 1500, Sales_Fact[Quantity] > 8), "Notable Sale", "Regular" )
-
+```
+```dax
 Sales Category = SWITCH(
     TRUE(),
     Sales_Fact[SalesAmount] < 500, "Low",
@@ -151,7 +146,8 @@ Sales Category = SWITCH(
     Sales_Fact[SalesAmount] >= 1500, "High",
     "Other"
 )
-
+```
+```dax
 Customer Full Name (CONCAT) = CONCATENATE(Customer_Dim[FirstName], " " & Customer_Dim[LastName])
 Product Label = UPPER(Product_Dim[Category])
 Category Code = LEFT(Product_Dim[Category], 3)
