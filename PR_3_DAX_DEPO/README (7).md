@@ -147,6 +147,7 @@ Sales Category = SWITCH(
     "Other"
 )
 ```
+**Columns in Product_dim & Date_dim:**
 ```dax
 Customer Full Name (CONCAT) = CONCATENATE(Customer_Dim[FirstName], " " & Customer_Dim[LastName])
 Product Label = UPPER(Product_Dim[Category])
