@@ -80,6 +80,12 @@ This project demonstrates end-to-end **DAX (Data Analysis Expressions)** inside 
 
 ---
 
+### 🔹 🔟 Output Requirement
+
+![output requirement](https://github.com/shrutiii87/Power-BI/blob/main/PR_3_DAX_DEPO/Project%20images/Output%20Requirement%20(10).png)
+
+---
+
 ## 🛠️ Tools & Technologies Used
 
 | Tool | Features Used |
