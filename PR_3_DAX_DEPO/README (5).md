@@ -31,7 +31,7 @@ This project demonstrates end-to-end **DAX (Data Analysis Expressions)** inside 
 
 ## 🔗 Relationships & Data Model
 
-![Relationships](Relationships.png)
+![Relationships](![Relationships](project_images/Relationships.png))
 
 ![Joining and Relationships](joining_and_relationships.png)
 
