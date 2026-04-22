@@ -48,12 +48,14 @@ This project demonstrates end-to-end **DAX (Data Analysis Expressions)** inside 
 
 ```dax
 Profit = Sales_Fact[SalesAmount] - Sales_Fact[Cost]
-
+```
+```dax
 ReturnFlag = IF(
     COUNTROWS( FILTER( Returns_Fact, Returns_Fact[SalesID] = Sales_Fact[SalesID] ) ) > 0,
     "Returned", "Not Returned"
 )
-
+```
+```dax
 Customer Full Name = Customer_Dim[FirstName] & " " & Customer_Dim[LastName]
 ```
 
