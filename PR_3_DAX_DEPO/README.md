@@ -4,15 +4,20 @@ An advanced Power BI DAX project focused on building calculated columns, measure
 
 ---
 
-## 🎬 Project Demo Video
-
-▶ **[WATCH DEMO – GOOGLE DRIVE](#)**
-
----
-
 ## 🚀 Project Overview
 
 This project demonstrates end-to-end **DAX (Data Analysis Expressions)** inside Microsoft Power BI Desktop. The focus is purely on DAX calculations across multiple categories — no complex visuals, just clean logic verified through Matrix tables and Card visuals.
+
+---
+
+## 📁 Project files 
+
+| File | Description |
+|------|-------------|
+| 📄 `Sales_Fact` | Main Power BI file  |
+| 📁 `files used` | Files used in project |
+| 📷 `Project images` | task screenshots |
+| 📘 `README>md` | Readme of the project |
 
 ---
 
