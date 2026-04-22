@@ -48,6 +48,8 @@ This project demonstrates end-to-end **DAX (Data Analysis Expressions)** inside 
 
 ### 🔹 1️⃣ Calculated Columns
 
+Calculated columns extend existing tables with new row-by-row computed values.
+
 #### Profit & ReturnFlag — `Sales_Fact`
 
 ```dax
