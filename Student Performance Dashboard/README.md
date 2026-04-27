@@ -59,8 +59,6 @@ This project was built as part of a Power BI exam assignment (2.5–3 hours, 50 
 
 ### 🔹 2️⃣ DAX Measures
 
-All measures are stored in a dedicated **Measure Management** table for organized access via the Fields Pane.
-
 ```dax
 % Score = DIVIDE(SUM('Scores csv'[Score]), SUM('Scores csv'[MaxScore]))
 ```
