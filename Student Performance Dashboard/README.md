@@ -6,7 +6,7 @@ An interactive **Power BI Dashboard** built to analyze academic performance, att
 
 ## 🚀 Project Overview
 
-This project was built as part of a Power BI exam assignment (2.5–3 hours, 50 marks). The dashboard provides a multi-tab interactive report that allows educators and analysts to explore student data from both an academic and behavioral perspective — with individual student drillthrough profiles and full mobile support.
+The dashboard provides a multi-tab interactive report that allows educators and analysts to explore student data from both an academic and behavioral perspective — with individual student drillthrough profiles and full mobile support.
 
 ---
 
@@ -230,7 +230,7 @@ All measures are organized in a dedicated table called **Measure Management** in
 
 ---
 
-<img width="1024" height="1536" alt="Mobile layout" src="https://github.com/user-attachments/assets/c0dd8344-02a6-4333-8cb8-1ea393dbee6a" />
+<img width="200" height="400" alt="Mobile layout" src="https://github.com/user-attachments/assets/c0dd8344-02a6-4333-8cb8-1ea393dbee6a" />
 
 ---
 
