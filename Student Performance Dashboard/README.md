@@ -91,6 +91,8 @@ SWITCH(
 
 #### 📌 Academic View Page
 
+<img width="605" height="341" alt="Screenshot 2026-04-27 231720" src="https://github.com/user-attachments/assets/6b4daefe-268d-4ab6-8907-cb10a1bf8cf3" />
+
 **KPI Cards:**
 - Total Students → `TOTAL Student`
 - Avg Score per Subject → `Avg Score per Subject`
@@ -116,6 +118,8 @@ SWITCH(
 
 #### 📌 Behavioral View Page
 
+<img width="612" height="345" alt="Screenshot 2026-04-27 231859" src="https://github.com/user-attachments/assets/ac1aaca4-a9e9-400e-a7cc-4931e0f97bc3" />
+
 **KPI Cards:**
 - Total Incidents
 - Disruptive Count
@@ -137,6 +141,8 @@ SWITCH(
 
 #### 📌 Student Profile (Drillthrough) Page
 
+<img width="614" height="348" alt="Screenshot 2026-04-27 231928" src="https://github.com/user-attachments/assets/2c8d51c4-83f3-4c7d-b9a1-a4d263792f04" />
+
 **KPI Cards:**
 - `% Score`
 - `Attendance %`
@@ -153,6 +159,10 @@ SWITCH(
 ---
 
 #### 📌 Tooltip Page
+
+<img width="250" height="190" alt="Screenshot 2026-04-27 231952" src="https://github.com/user-attachments/assets/ac7eef76-5d35-48cc-8caf-fdd67f62e53c" />
+
+<img width="609" height="343" alt="Screenshot 2026-04-27 232024" src="https://github.com/user-attachments/assets/c06df783-b1d5-4052-8b6e-823c648ad07f" />
 
 A custom tooltip page configured to appear on hover over the **Average Score by Subject** visual on the Academic View page.
 
