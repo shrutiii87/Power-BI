@@ -51,10 +51,6 @@ This project was built as part of a Power BI exam assignment (2.5–3 hours, 50 
 
 > `Students csv` acts as the central dimension table. All fact tables (`Attendance csv`, `Behavior csv`, `Scores csv`) connect to it in a one-to-many relationship via `StudentID`.
 
-**Model View:**
-
-![Data Model](project%20images/data_model.png)
-
 ---
 
 ### 🔹 2️⃣ DAX Measures
@@ -94,8 +90,6 @@ SWITCH(
 ### 🔹 3️⃣ Visualizations
 
 #### 📌 Academic View Page
-
-https://github.com/user-attachments/assets/df58ccaf-b541-4210-a265-402b10e57438
 
 **KPI Cards:**
 - Total Students → `TOTAL Student`
