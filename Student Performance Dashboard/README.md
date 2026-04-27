@@ -162,6 +162,7 @@ SWITCH(
 
 <img width="250" height="190" alt="Screenshot 2026-04-27 231952" src="https://github.com/user-attachments/assets/ac7eef76-5d35-48cc-8caf-fdd67f62e53c" />
 
+---
 <img width="609" height="343" alt="Screenshot 2026-04-27 232024" src="https://github.com/user-attachments/assets/c06df783-b1d5-4052-8b6e-823c648ad07f" />
 
 A custom tooltip page configured to appear on hover over the **Average Score by Subject** visual on the Academic View page.
