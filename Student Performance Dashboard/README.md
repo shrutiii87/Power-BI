@@ -149,6 +149,8 @@ SWITCH(
 
 #### 📌 Student Profile (Drillthrough) Page
 
+---
+
 <img width="900" height="500" alt="Screenshot 2026-04-27 231928" src="https://github.com/user-attachments/assets/2c8d51c4-83f3-4c7d-b9a1-a4d263792f04" />
 
 ---
@@ -177,6 +179,8 @@ SWITCH(
 
 #### 📌 Tooltip Page
 
+---
+
 <img width="256" height="188" alt="Screenshot 2026-04-27 232804" src="https://github.com/user-attachments/assets/04c1d728-4338-4e4e-bb82-90af01103366" />
 
 ---
@@ -193,6 +197,8 @@ A custom tooltip page configured to appear on hover over the **Average Score by 
 ---
 
 #### 📌 Bookmarks
+
+---
 
 <img width="603" height="40" alt="Screenshot 2026-04-27 233244" src="https://github.com/user-attachments/assets/949e4e1e-cad1-4deb-a852-eaa72cc15758" />
 
@@ -221,6 +227,12 @@ All measures are organized in a dedicated table called **Measure Management** in
 ---
 
 ### 🔹 6️⃣ Mobile Layout *(Optional — Completed)*
+
+---
+
+<img width="1024" height="1536" alt="Mobile layout" src="https://github.com/user-attachments/assets/c0dd8344-02a6-4333-8cb8-1ea393dbee6a" />
+
+---
 
 A mobile-optimized layout was created for the Academic View page, rearranging visuals vertically for the Power BI mobile app. KPI cards, bar chart, and line chart are all visible in a scrollable single-column layout.
 
