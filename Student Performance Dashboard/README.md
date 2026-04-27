@@ -95,6 +95,8 @@ SWITCH(
 
 #### 📌 Academic View Page
 
+https://github.com/user-attachments/assets/df58ccaf-b541-4210-a265-402b10e57438
+
 **KPI Cards:**
 - Total Students → `TOTAL Student`
 - Avg Score per Subject → `Avg Score per Subject`
