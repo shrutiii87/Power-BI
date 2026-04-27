@@ -96,7 +96,11 @@ SWITCH(
 
 <img width="900" height="500" alt="Screenshot 2026-04-27 232553" src="https://github.com/user-attachments/assets/964738c8-5b8a-46b1-91f2-b153418b5019" />
 
+---
 
+<img width="135" height="224" alt="Screenshot 2026-04-27 232938" src="https://github.com/user-attachments/assets/e98c6d0c-bd6a-4aa6-84a1-15afe7b199fd" />
+
+---
 **KPI Cards:**
 - Total Students → `TOTAL Student`
 - Avg Score per Subject → `Avg Score per Subject`
@@ -122,7 +126,7 @@ SWITCH(
 
 #### 📌 Behavioral View Page
 
-<img width="612" height="345" alt="Screenshot 2026-04-27 231859" src="https://github.com/user-attachments/assets/ac1aaca4-a9e9-400e-a7cc-4931e0f97bc3" />
+<img width="900" height="500" alt="Screenshot 2026-04-27 231859" src="https://github.com/user-attachments/assets/ac1aaca4-a9e9-400e-a7cc-4931e0f97bc3" />
 
 **KPI Cards:**
 - Total Incidents
@@ -145,7 +149,16 @@ SWITCH(
 
 #### 📌 Student Profile (Drillthrough) Page
 
-<img width="614" height="348" alt="Screenshot 2026-04-27 231928" src="https://github.com/user-attachments/assets/2c8d51c4-83f3-4c7d-b9a1-a4d263792f04" />
+<img width="900" height="500" alt="Screenshot 2026-04-27 231928" src="https://github.com/user-attachments/assets/2c8d51c4-83f3-4c7d-b9a1-a4d263792f04" />
+
+---
+
+<img width="350" height="254" alt="Screenshot 2026-04-27 233028" src="https://github.com/user-attachments/assets/4b1ca145-6865-471e-8837-4a2d15c190b6" />
+
+---
+
+<img width="615" height="349" alt="Screenshot 2026-04-27 233111" src="https://github.com/user-attachments/assets/036239cf-ca92-47f8-91dc-4b51f706a008" />
+
 
 **KPI Cards:**
 - `% Score`
@@ -164,10 +177,12 @@ SWITCH(
 
 #### 📌 Tooltip Page
 
-<img width="250" height="190" alt="Screenshot 2026-04-27 231952" src="https://github.com/user-attachments/assets/ac7eef76-5d35-48cc-8caf-fdd67f62e53c" />
+<img width="256" height="188" alt="Screenshot 2026-04-27 232804" src="https://github.com/user-attachments/assets/04c1d728-4338-4e4e-bb82-90af01103366" />
 
 ---
-<img width="609" height="343" alt="Screenshot 2026-04-27 232024" src="https://github.com/user-attachments/assets/c06df783-b1d5-4052-8b6e-823c648ad07f" />
+<img width="612" height="343" alt="Screenshot 2026-04-27 232834" src="https://github.com/user-attachments/assets/aa4fef10-0dc1-45c5-9a88-8327022f3989" />
+
+---
 
 A custom tooltip page configured to appear on hover over the **Average Score by Subject** visual on the Academic View page.
 
@@ -176,6 +191,12 @@ A custom tooltip page configured to appear on hover over the **Average Score by 
 - Card: `Class Avg`
 
 ---
+
+#### 📌 Bookmarks
+
+<img width="603" height="40" alt="Screenshot 2026-04-27 233244" src="https://github.com/user-attachments/assets/949e4e1e-cad1-4deb-a852-eaa72cc15758" />
+
+
 
 ### 🔹 4️⃣ Interactivity
 
@@ -191,6 +212,10 @@ A custom tooltip page configured to appear on hover over the **Average Score by 
 
 ### 🔹 5️⃣ Measure Management
 
+<img width="130" height="224" alt="Screenshot 2026-04-27 233318" src="https://github.com/user-attachments/assets/a2cc80bd-fbce-4501-bbcb-bfe5ce641557" />
+
+
+---
 All measures are organized in a dedicated table called **Measure Management** in the Fields Pane, keeping the model clean and measures easy to find.
 
 ---
