@@ -230,7 +230,7 @@ All measures are organized in a dedicated table called **Measure Management** in
 
 ---
 
-<img width="200" height="400" alt="Mobile layout" src="https://github.com/user-attachments/assets/c0dd8344-02a6-4333-8cb8-1ea393dbee6a" />
+<img width="280" height="400" alt="Mobile layout" src="https://github.com/user-attachments/assets/c0dd8344-02a6-4333-8cb8-1ea393dbee6a" />
 
 ---
 
