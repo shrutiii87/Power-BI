@@ -94,7 +94,8 @@ SWITCH(
 
 #### 📌 Academic View Page
 
-<img width="900" height="500" alt="Screenshot 2026-04-27 231720" src="https://github.com/user-attachments/assets/6b4daefe-268d-4ab6-8907-cb10a1bf8cf3" />
+<img width="900" height="500" alt="Screenshot 2026-04-27 232553" src="https://github.com/user-attachments/assets/964738c8-5b8a-46b1-91f2-b153418b5019" />
+
 
 **KPI Cards:**
 - Total Students → `TOTAL Student`
