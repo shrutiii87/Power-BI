@@ -91,10 +91,11 @@ SWITCH(
 ---
 
 ### 🔹 3️⃣ Visualizations
-
+#### 📌 Home Page
+<img width="582" height="850" alt="Screenshot 2026-04-28 180206" src="https://github.com/user-attachments/assets/b324dfc7-8b5d-4176-980c-a6d3abe70520" />
 #### 📌 Academic View Page
+<img width="582" height="850" alt="Screenshot 2026-04-28 175317" src="https://github.com/user-attachments/assets/e11987b8-5804-4118-a8d2-16eaa6d94f40" />
 
-<img width="900" height="500" alt="Screenshot 2026-04-27 232553" src="https://github.com/user-attachments/assets/964738c8-5b8a-46b1-91f2-b153418b5019" />
 
 ---
 
