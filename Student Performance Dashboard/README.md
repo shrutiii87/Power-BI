@@ -114,7 +114,8 @@ SWITCH(
 
 **Bar Chart – Average Score by Subject:**
 - Y-axis: `Subject` (from Scores.csv)
-- X-axis: `Avg Score per Subject` + `Class Avg`
+- X-axis: `Avg Score per Subject`
+- Legend: `Class`
 - Shows both subject-level average and class-level average side by side
 
 **Line Chart – Performance Trend by Term:**
