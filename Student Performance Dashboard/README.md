@@ -201,6 +201,13 @@ A custom tooltip page configured to appear on hover over the **Average Score by 
 
 ---
 
+#### 📌 Storytelling Page
+
+<img width="900" height="500" alt="Screenshot 2026-04-28 175448" src="https://github.com/user-attachments/assets/a735cb5d-f89b-45ed-bd88-9364ac56c948" />
+
+
+---
+
 #### 📌 Bookmarks
 
 ---
