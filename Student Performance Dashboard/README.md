@@ -94,7 +94,8 @@ SWITCH(
 
 #### 📌 Home Page
 
-<img width="900" height="400" alt="Screenshot 2026-04-28 180206" src="https://github.com/user-attachments/assets/b324dfc7-8b5d-4176-980c-a6d3abe70520" />
+<img width="900" height="400" alt="Home Page" src="https://github.com/user-attachments/assets/878fe8e9-f4a8-45a2-9358-4cf7143e56bd" />
+
 
 #### 📌 Academic View Page
 
