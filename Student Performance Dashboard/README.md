@@ -253,7 +253,7 @@ All measures are organized in a dedicated table called **Measure Management** in
 
 ---
 
-[Mobile Layout.pdf](https://github.com/user-attachments/files/27211739/Mobile.Layout.pdf)
+<img width="550" height="295" alt="Screenshot 2026-04-29 230317" src="https://github.com/user-attachments/assets/98fe5f14-ec7c-42f0-8c75-6a9c112536d9" />
 
 
 ---
