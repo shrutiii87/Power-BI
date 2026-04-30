@@ -202,7 +202,15 @@ DIVIDE([Total Sales] - [Prev Month Sales], [Prev Month Sales], 0) * 100
 **YTD Sales:**
 
 ```dax
-YTD Sales = TOTALYTD([Total Sales], Date_Dim[Date])
+YTD Sale = 
+IF(
+	ISFILTERED('Returns_Fact'[ReturnDate]),
+	ERROR("Time intelligence quick measures can only be grouped or filtered by the Power BI-provided date hierarchy or primary date column."),
+	TOTALYTD(
+		SUM('Sales_Fact'[TotalAmount]),
+		'Returns_Fact'[ReturnDate].[Date]
+	)
+)
 ```
 
 **YTD Returns:**
@@ -210,6 +218,11 @@ YTD Sales = TOTALYTD([Total Sales], Date_Dim[Date])
 ```dax
 YTD Returns = TOTALYTD([Total Returns], Returns_Fact[ReturnDate])
 ```
+---
+Seasonal Trends
+---
+
+<img width="320" height="101" alt="Screenshot 2026-04-30 225256" src="https://github.com/user-attachments/assets/cd7b8546-bea9-4d51-a785-7c08aab8eb61" />
 
 ---
 
@@ -219,13 +232,17 @@ The report is structured across **6 pages** — 1 Main Overview, 2 Detail Pages,
 
 #### 📄 Home Page  — (Sales & Customer Intelligence Dashboard)
 
-<img width="1200" height="700" alt="Screenshot 2026-04-30 112343" src="https://github.com/user-attachments/assets/6711e707-4ffd-465c-95ab-f406cd8d56a9" />
+---
+
+<img width="1200" height="700" alt="Screenshot 2026-04-30 223101" src="https://github.com/user-attachments/assets/122431e6-22da-4263-9f93-556aed068b0d" />
 
 ---
 
 #### 📄 Page 1 — Overview (Sales & Customer Intelligence Dashboard)
 
-<img width="1200" height="700" alt="Screenshot 2026-04-30 113130" src="https://github.com/user-attachments/assets/ec4e16c1-f47d-45db-85b2-0184e3a7f947" />
+---
+
+<img width="1200" height="700" alt="Screenshot 2026-04-30 223015" src="https://github.com/user-attachments/assets/62141b52-f25c-4249-87fd-1daea465048a" />
 
 ---
 
@@ -242,6 +259,12 @@ The report is structured across **6 pages** — 1 Main Overview, 2 Detail Pages,
 
 ---
 <img width="1200" height="700" alt="Screenshot 2026-04-30 113300" src="https://github.com/user-attachments/assets/e5db8167-704f-4fce-a22d-3eebce30adfd" />
+
+---
+TOP N Product by Sales
+---
+
+<img width="433" height="189" alt="Top N by sales" src="https://github.com/user-attachments/assets/5beb91d6-59a9-4a22-8800-78b574627da0" />
 
 ---
 
@@ -263,7 +286,15 @@ TREND LINE AND FORECAST
 
 #### 📄 Page 3 — Customer Analysis
 
+---
+
 <img width="1200" height="700" alt="Screenshot 2026-04-30 113728" src="https://github.com/user-attachments/assets/0a0a7ab4-0046-4456-943e-c4f2af02ba7a" />
+
+---
+TOP N by Customers By Profit
+---
+
+<img width="396" height="178" alt="Top N by profit" src="https://github.com/user-attachments/assets/a882e649-938f-4242-8518-1a797e6fb0c7" />
 
 ---
 
@@ -305,6 +336,8 @@ TREND LINE AND FORECAST
 - Assigned as a hover Tooltip on main dashboard visuals
 
 #### 📄 Page 6 — Manage Parameters
+
+---
 
 <img width="303" height="225" alt="Screenshot 2026-04-30 114913" src="https://github.com/user-attachments/assets/9cb39027-58d5-40d1-99a4-8e8a7fd185f5" />
 
