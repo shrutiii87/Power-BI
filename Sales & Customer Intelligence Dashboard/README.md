@@ -212,7 +212,7 @@ The report is structured across **6 pages** — 1 Main Overview, 2 Detail Pages,
 
 #### 📄 Home Page  — (Sales & Customer Intelligence Dashboard)
 
-<img width="800" height="600" alt="Screenshot 2026-04-30 112343" src="https://github.com/user-attachments/assets/6711e707-4ffd-465c-95ab-f406cd8d56a9" />
+<img width="1200" height="600" alt="Screenshot 2026-04-30 112343" src="https://github.com/user-attachments/assets/6711e707-4ffd-465c-95ab-f406cd8d56a9" />
 
 #### 📄 Page 1 — Overview (Sales & Customer Intelligence Dashboard)
 - **KPI Cards:** Total Sales (844.02K) · Total Profit (457.80K) · Total Returns (50) · YOY Growth % (2026.8%)
