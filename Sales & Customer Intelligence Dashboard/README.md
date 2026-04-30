@@ -233,7 +233,16 @@ The report is structured across **6 pages** — 1 Main Overview, 2 Detail Pages,
 
 #### 📄 Page 2 — Products Analysis
 
+---
 <img width="1200" height="700" alt="Screenshot 2026-04-30 113300" src="https://github.com/user-attachments/assets/e5db8167-704f-4fce-a22d-3eebce30adfd" />
+
+---
+
+TREND LINE AND FORECAST
+
+---
+
+<img width="313" height="98" alt="Screenshot 2026-04-30 123006" src="https://github.com/user-attachments/assets/2f7fef52-faa9-43ca-968b-3bf6f3e7a0a3" />
 
 ---
 
