@@ -336,7 +336,7 @@ The report is structured across **6 pages** — 1 Main Overview, 2 Detail Pages,
 
 ---
 
-<img width="485" height="278" alt="Screenshot 2026-04-30 122026" src="https://github.com/user-attachments/assets/62cba0b1-9c57-40fd-a692-05f333a53c50" />
+<img width="1200" height="700" alt="Screenshot 2026-04-30 122026" src="https://github.com/user-attachments/assets/62cba0b1-9c57-40fd-a692-05f333a53c50" />
 
 ---
 
