@@ -67,6 +67,13 @@ The following tables were imported from Excel files and loaded into the Power BI
 
 **Relationships defined:**
 
+---
+
+<img width="1000" height="500" alt="Screenshot 2026-04-30 123720" src="https://github.com/user-attachments/assets/f746af80-c001-4cad-ad20-0eb2535420bb" />
+
+
+---
+
 | From Table | To Table | Join Key | Cardinality |
 |------------|----------|----------|-------------|
 | Sales_Fact | Customer_Dim | CustomerID | Many → 1 |
