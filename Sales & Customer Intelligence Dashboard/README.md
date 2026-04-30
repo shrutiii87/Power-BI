@@ -215,11 +215,16 @@ The report is structured across **6 pages** — 1 Main Overview, 2 Detail Pages,
 <img width="1200" height="700" alt="Screenshot 2026-04-30 112343" src="https://github.com/user-attachments/assets/6711e707-4ffd-465c-95ab-f406cd8d56a9" />
 
 #### 📄 Page 1 — Overview (Sales & Customer Intelligence Dashboard)
+
+<img width="1200" height="700" alt="Screenshot 2026-04-30 113130" src="https://github.com/user-attachments/assets/ec4e16c1-f47d-45db-85b2-0184e3a7f947" />
+
+---
+
 - **KPI Cards:** Total Sales (844.02K) · Total Profit (457.80K) · Total Returns (50) · YOY Growth % (2026.8%)
-- **Line Chart:** Total Sales vs YTD Sales by Month (with trend line and forecast)
+- **Line Chart:** Total Sales vs YTD Sales by Month 
 - **Donut Chart:** Total Sales by Category (Technology · Furniture · Office Supplies)
 - **Bar Chart:** Total Sales by Region
-- **Matrix Table:** Segment × Quarter breakdown with conditional formatting
+- **Matrix Table:**  with conditional formatting
 - **Slicers:** Quarter · Region · Year
 
 #### 📄 Page 2 — Products Analysis
