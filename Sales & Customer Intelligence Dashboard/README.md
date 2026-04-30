@@ -214,6 +214,8 @@ The report is structured across **6 pages** — 1 Main Overview, 2 Detail Pages,
 
 <img width="1200" height="700" alt="Screenshot 2026-04-30 112343" src="https://github.com/user-attachments/assets/6711e707-4ffd-465c-95ab-f406cd8d56a9" />
 
+---
+
 #### 📄 Page 1 — Overview (Sales & Customer Intelligence Dashboard)
 
 <img width="1200" height="700" alt="Screenshot 2026-04-30 113130" src="https://github.com/user-attachments/assets/ec4e16c1-f47d-45db-85b2-0184e3a7f947" />
@@ -227,31 +229,72 @@ The report is structured across **6 pages** — 1 Main Overview, 2 Detail Pages,
 - **Matrix Table:**  with conditional formatting
 - **Slicers:** Quarter · Region · Year
 
+---
+
 #### 📄 Page 2 — Products Analysis
+
+<img width="1200" height="700" alt="Screenshot 2026-04-30 113300" src="https://github.com/user-attachments/assets/e5db8167-704f-4fce-a22d-3eebce30adfd" />
+
+---
+
 - **KPI Cards:** Total Products (100) · Avg Margin % (0.54) · Top Category (Office Supplies)
-- **Summary Table:** Category-wise Total Sales · Total Profit · Profit Margin
-- **Bar Chart:** Top N Products by Total Sales
-- **Line Chart:** Total Sales by Day with forecast band
+- **Summary Table:** Category-wise Total Sales · Total Profit · sum of Profit Margin
+- **Bar Chart:** Top N Products by Total Sales (TOP N DONE HERE)
+- **Line Chart:** Total Sales by Day ( TREND LINE AND FORECAST )
 - **Slicers:** Year · Category
 
+---
+
 #### 📄 Page 3 — Customer Analysis
+
+<img width="1200" height="700" alt="Screenshot 2026-04-30 113728" src="https://github.com/user-attachments/assets/0a0a7ab4-0046-4456-943e-c4f2af02ba7a" />
+
+---
+
 - **KPI Cards:** Total Customers (198) · Avg Sales per Customer (4.26K) · Return Rate % (0.05)
 - **Donut Chart:** Total Customers by Segment
-- **Bar Chart:** Top N Customers by Profit
-- **Detail Table:** FullName · Total Sales · Total Returns · Total Profit
+- **Bar Chart:** Top N Customers by Profit ( TOP N DONE HERE )
+- **Detail Table:** FullName · Total Sales · Total Returns · Total Profit ( DONE DRILLTHROUGH FROM THESE TABLE )
 - **Slicers:** Segment · Region · Year
 
+---
+
 #### 📄 Page 4 — Drillthrough
-- Right-click drillthrough target page from any customer or product data point
+
+<img width="1200" height="700" alt="Screenshot 2026-04-30 114028" src="https://github.com/user-attachments/assets/74b211d4-e465-4b2d-8462-2cf7009a0df5" />
+
+---
+
+<img width="488" height="286" alt="Screenshot 2026-04-30 114718" src="https://github.com/user-attachments/assets/5bb526c4-1228-4eb9-ba49-069457d40a2b" />
+
+---
+
 - **KPI Cards:** Total Returns · Return Rate % · YTD Returns
 - **Bar Chart:** Total Returns by ReturnReason
-- **Detail Table:** ReturnID · FullName · ProductName
+- **Detail Table:** ReturnID · FullName · ProductName · Retrun Reason
+
+---
 
 #### 📄 Page 5 — Tooltip
+
+<img width="145" height="109" alt="Screenshot 2026-04-30 114844" src="https://github.com/user-attachments/assets/647c9964-b4e3-4ec6-86da-106943fca076" />
+
+---
+
+<img width="490" height="275" alt="Screenshot 2026-04-30 115005" src="https://github.com/user-attachments/assets/f0ff71a6-1aac-43ff-a96d-6b8d82b5c7a0" />
+
+---
+
 - Compact card visual showing **Total Sales** and **Total Profit**
 - Assigned as a hover Tooltip on main dashboard visuals
 
 #### 📄 Page 6 — Manage Parameters
+
+<img width="303" height="225" alt="Screenshot 2026-04-30 114913" src="https://github.com/user-attachments/assets/9cb39027-58d5-40d1-99a4-8e8a7fd185f5" />
+
+---
+
+
 - **Field Parameter** (`Chosen Measure`) for dynamic switching between Total Sales · Total Profit · Total Returns
 - **Period Slicer:** Month / Quarter / Year
 - **Year Slicer:** 2024 · 2025
@@ -269,8 +312,21 @@ The report is structured across **6 pages** — 1 Main Overview, 2 Detail Pages,
 
 ### 🔹 6️⃣ Navigation & UX
 
+---
+###  Bookmarks and buttons 
+
+<img width="230" height="31" alt="Screenshot 2026-04-30 115105" src="https://github.com/user-attachments/assets/8bbce53b-c1b6-4042-a8e2-6c4c8ffe71ee" />
+
+---
+
+### Condiional Formatting 
+
+<img width="152" height="92" alt="Screenshot 2026-04-30 115137" src="https://github.com/user-attachments/assets/13c52dc1-106f-423f-8b0a-d674e0795de1" />
+
+---
+
 - Added **Custom Buttons & Bookmarks** for smooth page navigation (Overview → Products → Customer → Drillthrough)
-- Built a collapsible **Slicer Panel** for a cleaner report canvas
+- Built a  **Slicer Panel** for a cleaner report canvas
 - Enabled **Tooltips** with mini visual summaries on hover
 - Used **Advanced Conditional Formatting** in Matrix and Table views (color-coded by performance)
 
@@ -278,12 +334,23 @@ The report is structured across **6 pages** — 1 Main Overview, 2 Detail Pages,
 
 ### 🔹 7️⃣ Mobile Layout
 
+---
+
+<img width="485" height="278" alt="Screenshot 2026-04-30 122026" src="https://github.com/user-attachments/assets/62cba0b1-9c57-40fd-a692-05f333a53c50" />
+
+---
+
 - Optimized key pages for **mobile viewing**
 - Prioritized **KPI Cards** and **Top N visuals** in the mobile layout view
 
 ---
 
 ### 🔹 8️⃣ Security
+
+---
+<img width="1200" height="700" alt="Screenshot 2026-04-30 122625" src="https://github.com/user-attachments/assets/ba956ec1-152f-44f5-9d93-712f8c7c2620" />
+
+---
 
 - Added **Roles for Region Managers** using Row-Level Security (RLS)
 - Simulated **row-level security** so each Region Manager can only view data for their assigned region
