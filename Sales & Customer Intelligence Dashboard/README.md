@@ -69,7 +69,7 @@ The following tables were imported from Excel files and loaded into the Power BI
 
 ---
 
-<img width="1200" height="500" alt="Screenshot 2026-04-30 123720" src="https://github.com/user-attachments/assets/f746af80-c001-4cad-ad20-0eb2535420bb" />
+<img width="1500" height="500" alt="Screenshot 2026-04-30 123720" src="https://github.com/user-attachments/assets/f746af80-c001-4cad-ad20-0eb2535420bb" />
 
 
 ---
