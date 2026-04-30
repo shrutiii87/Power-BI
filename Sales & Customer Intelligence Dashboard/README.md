@@ -247,7 +247,7 @@ The report is structured across **6 pages** — 1 Main Overview, 2 Detail Pages,
 ---
 
 - **KPI Cards:** Total Sales (844.02K) · Total Profit (457.80K) · Total Returns (50) · YOY Growth % (2026.8%)
-- **Line Chart:** Total Sales vs YTD Sales by Month 
+- **Line Chart:** Seasonal Trend
 - **Donut Chart:** Total Sales by Category (Technology · Furniture · Office Supplies)
 - **Bar Chart:** Total Sales by Region
 - **Matrix Table:**  with conditional formatting
