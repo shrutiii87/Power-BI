@@ -331,7 +331,7 @@ TREND LINE AND FORECAST
 ---
 ###  Bookmarks and buttons 
 
-<img width="230" height="31" alt="Screenshot 2026-04-30 115105" src="https://github.com/user-attachments/assets/8bbce53b-c1b6-4042-a8e2-6c4c8ffe71ee" />
+<img width="430" height="31" alt="Screenshot 2026-04-30 115105" src="https://github.com/user-attachments/assets/8bbce53b-c1b6-4042-a8e2-6c4c8ffe71ee" />
 
 ---
 
