@@ -4,14 +4,6 @@ An advanced Power BI project covering **Data Modeling**, **DAX Measures & Calcul
 
 ---
 
-## 🎬 Project Demo Video
-
-▶ **[WATCH DEMO – GOOGLE DRIVE](#)**
-
-🖥️ *Click the badge above to watch the full project walkthrough video on Google Drive.*
-
----
-
 ## 🚀 Project Overview
 
 This project demonstrates a **complete end-to-end Power BI analytics workflow**. It is organized across **8 task areas** as per the project brief:
@@ -45,6 +37,8 @@ This project demonstrates a **complete end-to-end Power BI analytics workflow**.
 |-----------|-------------|
 | 📄 `PR_3_SALES_INTELLIGENCE.pbix` | Main Power BI file with all models, measures, and dashboards |
 | 📘 `README.md` | Project documentation (this file) |
+| 📁  `Files Used` | Files used in this project |
+| 🖼️  `Project Preview` | Images of the project |
 
 ---
 
@@ -216,6 +210,10 @@ YTD Returns = TOTALYTD([Total Returns], Returns_Fact[ReturnDate])
 
 The report is structured across **6 pages** — 1 Main Overview, 2 Detail Pages, 1 Drillthrough Page, 1 Tooltip Page, and 1 Parameters Page:
 
+#### 📄 Home Page  — (Sales & Customer Intelligence Dashboard)
+
+<img width="481" height="273" alt="Screenshot 2026-04-30 112343" src="https://github.com/user-attachments/assets/6711e707-4ffd-465c-95ab-f406cd8d56a9" />
+
 #### 📄 Page 1 — Overview (Sales & Customer Intelligence Dashboard)
 - **KPI Cards:** Total Sales (844.02K) · Total Profit (457.80K) · Total Returns (50) · YOY Growth % (2026.8%)
 - **Line Chart:** Total Sales vs YTD Sales by Month (with trend line and forecast)
@@ -359,7 +357,7 @@ The report is structured across **6 pages** — 1 Main Overview, 2 Detail Pages,
 
 ## 👩‍💻 Shruti Bhawsar
 
-📍 Ahmedabad | Data Analytics Intern @ Red & White Skill Education
+📍 Ahmedabad | 
 
 [![GitHub](https://img.shields.io/badge/GitHub-shrutiii87-181717?style=flat&logo=github)](https://github.com/shrutiii87)
 
